@@ -1,0 +1,151 @@
+
+            header{
+            width:100%;
+            height:100px;
+            background: purple;
+            border-radius: 5px;
+            margin: 0px ;
+            font-size:5.5em;
+            font-style: italic;
+            color:white;
+            border:1px solid black;
+        }
+            main>aside:first-child{
+                width:24.8%;
+                height:600px;
+                float:left;
+                }
+                main>aside:first-child>ul>li>a{
+                    width:100%;
+                    height:40px;
+                    margin: 4px;
+                    border-radius: 4px;
+                    background:skyblue;
+                    font-size:2em;
+                    color:white;  
+                    float:left;
+                }
+                ul.left{
+                    list-style: none;
+                }
+                ul.left > li > a {
+                    text-decoration: none;
+                }
+                main>section{
+                width:50%;
+                height:1000px;
+                background:white;
+                float:left;
+            }
+            main> section>h2{
+                font-size: 2.5em;
+                margin:10px; 
+                text-align: center;
+                float: left;
+            }
+            main>section>p{
+                font-size: 20px;
+                margin:10px;
+                float: left;
+            }
+            main>aside:last-child{
+                width:24.8%;
+                height:600px;
+                float:left;
+                background: skyblue;
+                border-radius: 5px;
+            }
+            main> aside:last-child>h2{
+                font-size: 2.5em;
+                color: whitesmoke;
+                text-align: center !important;
+            }
+            main>aside:last-child>p{
+                font-size:20px;
+                color:whitesmoke;
+                padding:  20px 20px;
+                margin:10px;
+            }
+            footer{
+                width:100%;
+                height:200px;
+                background:skyblue;
+                clear:both;
+                border-radius: 5px;
+                border:1px solid black;
+                font-size: 20px;
+                color:white;
+                text-align: center;
+                line-height: 200px;
+            }
+            /*
+            @media not|only mediatype and (mediafeature and|or|not mediafeature)
+                css-code;
+            */
+            /*small device sm*/
+            @media only screen and (min-width:0px) and (max-width:599px){
+                main>aside:first-child{
+                    width:100%;
+                    height:200px;
+                }
+                main>section{
+                    width:100%;
+                    height:200px;
+                }
+                main>aside:last-child{
+                    width:100%;
+                    height:400px;
+                }
+                main>aside:last-child>h2{
+                    text-align: center;
+                    padding-left: 40%;
+                    margin: 20px 50px;
+                    font-size: 2em;
+                }
+                main>aside:last-child>p{
+                    margin: 20px;
+                    font-size :1.5em;
+                }
+            }
+             /*medium device md*/
+             @media only screen and (min-width:600px) and (max-width:767px){
+                main>:first-child{
+                    height:300px;
+                }
+                main>section{
+                    width:75%;
+                    height: 300px;
+                }
+                main>aside:last-child{
+                    width:100%;
+                }
+                main>aside:last-child>h2{
+                    text-align: center;
+                    margin: 20px 100px;
+                }
+                main>aside:last-child>p{
+                    margin: 40px;
+                    font-size: 24px;
+                }
+            }
+             /*large device lm*/
+             @media only screen and (min-width:768px){
+                main > aside:first-child{
+                    width:24%;
+                }
+                main > section{
+                    width:50%;
+                    height:300px;
+                }
+                main > aside:last-child{
+                    width:24%;
+                }
+                main>aside:last-child>h2{
+                    text-align: center;
+                    margin: 10px 50px;
+                }
+                main>aside:last-child>p{
+                    margin: 20px;
+                }
+                
+}
